@@ -1,0 +1,101 @@
+h1{
+	text-align: center;
+	letter-spacing: 0.9px;
+}
+
+.container
+{	margin: 40px;
+	/*border:3px solid rgba(80,80,80,80);*/
+}
+
+
+input[type=text], select {
+   /* width: 100%;*/
+    padding: 12px 20px;
+    margin: 7px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.stateName{
+	width:90px;
+}
+
+.TableButton, .TableSubmit, .ConvertSteps {
+    /*width: 100%;*/
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.ConvertSteps{
+	margin-left: 5px; 
+	display: inline;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.message{
+	position: absolute;
+	top:230px;
+	padding: 10px;
+	/*margin-top: -200px;*/
+	border: 3px solid rgba(80,80,80,80);
+	display: none;
+	margin-left: 700px;
+	background-color: white;
+	width:400px;
+}
+
+.displayQueue{
+	display: none;
+	border: 3px solid rgba(80,80,80,80);
+	padding: 5px;
+	/*margin-top: -250px;*/
+	position: absolute;	
+	top:100px;
+	padding: 10px;
+	margin-left: 600px;
+	width:500px;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+
+table{
+
+	display: none;
+	padding: 10px;
+	margin-top: 20px;
+	width: 40%;
+}
+tr{
+	border: 3px solid rgba(80,80,80,80);
+}
+
+body{
+	
+	font-family: 'Fredoka One', cursive;
+
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+}
+
+.TableSubmit{
+	display: none;
+}
+
+.ConvertSteps{
+
+	margin-left: 20px;
+	display: none;
+}
